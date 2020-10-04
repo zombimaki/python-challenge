@@ -28,8 +28,7 @@ with open(budget_data) as csvfile:
     profit_loss_date = []
 
     # ignore the header for our aggregations
-    if csv.Sniffer().has_header:
-        next(csvreader)
+    row = next(csvreader,None)
 
     # loop through the csv and set values to our variables
     for row in csvreader:
