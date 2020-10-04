@@ -1,7 +1,7 @@
 # python-challenge
 Python Homework - Py Me Up, Charlie
 
-#PyBank
+PyBank 
 
 The PyBank main.py script loads a csv file of dates and profit/loss balances from the PyBank/resources folder. It takes these dates and balances and does the following:
 
@@ -13,6 +13,7 @@ The PyBank main.py script loads a csv file of dates and profit/loss balances fro
 6. Prints the results to the terminal.
 7. Writes the results to the text file in the PyBank/analysis folder.
 
+PyPoll
 
 The PyPoll main.py script loads a csv file of voter id, county, and candidate from the PyPoll/resources folder. It takes the election data and does the following:
 
